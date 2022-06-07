@@ -1,0 +1,75 @@
+:root {
+    font-size: 15px;
+    font-family: Rubik;
+    background-color: rgb(250, 250, 250);
+}
+
+body {
+    color: black;
+}
+
+h1 {
+    font-family: Raleway Dots;
+    font-size: 100px;
+    margin: 0;
+    background-image: linear-gradient(120deg, #9400d3, #4b0082, #0000ff, #00ff00, #ffff00, #ff7f00, #ff0000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgba(255, 255, 255, 0);
+}
+
+h2 {
+    margin: 1em 0 0.25em;
+}
+
+h2:first-of-type {
+    margin-top: 0.5em;
+}
+
+.logo {
+    text-align: center;
+}
+
+.nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    border-width: thin;
+    border-radius: 25px;
+    padding: 25px 25px 25px 25px;
+    margin-top: 30px;
+    box-shadow: 8px 8px 5px #acacaca4;
+}
+
+table,
+tr,
+td {
+    border: 2px solid rgba(215, 215, 215, 0.364);
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+tr {
+    height: 20px;
+}
+
+td {
+    width: 20px;
+}
+
+input[type=number] {
+    width: 3em;
+    height: 1rem;
+    margin-bottom: 5px;
+    font-family: Rubik;
+    font-size: 18px;
+    color: rgb(16, 40, 40);
+    background-color: azure;
+    border: 2px solid rgb(231, 231, 231);
+    border-width: thin;
+    border-radius: 6px;
+}
